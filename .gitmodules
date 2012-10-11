@@ -1,10 +1,10 @@
 # xfm-php submodule
 [submodule "lib/xfm"]
 	path = lib/xfm
-	url = git://github.com/damiencorpataux/xfm-php.git
+	url = giti@github.com:damiencorpataux/xfm-php.git
 [submodule "public/assets/extjs"]
 	path = public/assets/extjs
 	url = https://github.com/probonogeek/extjs.git
 [submodule "lib/fbm"]
 	path = lib/fbm
-	url = https://github.com/damiencorpataux/fbm-xfm-library.git
+	url = git@github.com:damiencorpataux/fbm-xfm-library.git
