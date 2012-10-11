@@ -45,7 +45,7 @@
                     </a>
                     <a class="brand" href="<?php echo u() ?>">
                         <img style="position:relative;bottom:3px;width:85px" src="<?php echo u('a/img/id/unil-web-header.png') ?>"/>
-                        | App template
+                        | CUS/OFS
                     </a>
                     <!-- Uncomment and modify to add top-right navigation links
                     <div class="nav-collapse pull-right">
