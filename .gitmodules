@@ -5,3 +5,6 @@
 [submodule "public/assets/extjs"]
 	path = public/assets/extjs
 	url = https://github.com/probonogeek/extjs.git
+[submodule "lib/fbm"]
+	path = lib/fbm
+	url = https://github.com/damiencorpataux/fbm-xfm-library.git
