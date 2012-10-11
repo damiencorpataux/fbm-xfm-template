@@ -11,12 +11,12 @@ class LayoutLayoutView extends xView {
                 // xContext serialization
                 xUtil::url('assets/js/view/context.js'),
                 // Ext JS
-                xUtil::url('/assets/extjs/bootstrap.js'),
-                xUtil::url('/assets/extjs/locale/ext-lang-fr.js'),
-                xUtil::url('/assets/extjs/examples/ux/form/SearchField.js'),
-                xUtil::url('/assets/extjs/examples/ux/CheckColumn.js'),
+                xUtil::url('assets/extjs/bootstrap.js'),
+                xUtil::url('assets/extjs/locale/ext-lang-fr.js'),
+                xUtil::url('assets/extjs/examples/ux/form/SearchField.js'),
+                xUtil::url('assets/extjs/examples/ux/CheckColumn.js'),
                 xUtil::url('assets/extjs-ux/notification/Notification.js'),
-                'https://raw.github.com/unil/iafbm/master/iafbm/public/assets/js/app/classes.js',
+                xUtil::url('assets/extjs-fbm/classes.js'),
                 // Bootstrap.css js
                 xUtil::url('assets/bootstrap.css/jquery.js'),
                 xUtil::url('assets/bootstrap.css/bootstrap-transition.js'),
