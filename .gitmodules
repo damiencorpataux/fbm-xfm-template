@@ -2,3 +2,6 @@
 [submodule "lib/xfm"]
 	path = lib/xfm
 	url = git://github.com/damiencorpataux/xfm-php.git
+[submodule "public/assets/extjs"]
+	path = public/assets/extjs
+	url = https://github.com/probonogeek/extjs.git

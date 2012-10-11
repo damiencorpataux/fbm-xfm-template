@@ -1,4 +1,4 @@
 <footer>
     &copy;
-    <?php echo _('is becoming a suspiscious concept. Please share.'); ?>
+    <?php echo date('Y').' - '._('Université de Lausanne').' - '._('Tous droits réservés'); ?>
 </footer>

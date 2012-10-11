@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
+        <!-- Le ExtJS scoped css trigger -->
+        <script>
+            // Here we define Ext for the first time
+            Ext = {
+                buildSettings:{
+                    "scopeResetCSS": true  // Thanks, but I'll do my own scoping please
+                }
+            };
+        </script>
         <!-- Le styles -->
 <?php foreach ($m['css'] as $css): ?>
         <link href="<?php echo $css ?>" rel="stylesheet">
@@ -35,7 +44,8 @@
                         <span class="icon-bar"></span>
                     </a>
                     <a class="brand" href="<?php echo u() ?>">
-                        App template
+                        <img style="position:relative;bottom:3px;width:85px" src="<?php echo u('a/img/id/unil-web-header.png') ?>"/>
+                        | App template
                     </a>
                     <!-- Uncomment and modify to add top-right navigation links
                     <div class="nav-collapse pull-right">
@@ -50,7 +60,7 @@
             </div>
         </div>
         <div class="clearfix"/>
-        <div class="container" style="margin-top:75px">
+        <div class="container">
             <?php echo xView::load('layout/messages') ?>
             <?php echo $d['html']['content'] ?>
             <?php echo xView::load('layout/footer') ?>
