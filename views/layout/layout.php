@@ -36,14 +36,15 @@ class LayoutLayoutView extends xView {
                 // Bootstrap.css CSS
                 xUtil::url('assets/bootstrap.css/bootstrap.css'),
                 xUtil::url('assets/bootstrap.css/bootstrap-responsive.css'),
-                // Ext JS
-                xUtil::url('assets/extjs/resources/css/ext-all-scoped.css'),
-                xUtil::url('assets/extjs/examples/ux/css/CheckHeader.css'),
-                xUtil::url('assets/extjs-ux/notification/css/Notification.css'),
                 // Custom CSS
                 xUtil::url('assets/css/bootstrap-tweaks.css'),
                 xUtil::url('assets/css/custom-fonts.css'),
                 xUtil::url('assets/css/custom.css'),
+                // Ext JS
+                xUtil::url('assets/extjs/resources/css/ext-all-scoped.css'),
+                //xUtil::url('assets/extjs-fbm/ext-all-gray-scoped.css'),
+                xUtil::url('assets/extjs/examples/ux/css/CheckHeader.css'),
+                xUtil::url('assets/extjs-ux/notification/css/Notification.css'),
             )
         ));
     }
