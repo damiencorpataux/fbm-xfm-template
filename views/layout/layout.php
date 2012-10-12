@@ -43,6 +43,7 @@ class LayoutLayoutView extends xView {
                 // Ext JS
                 xUtil::url('assets/extjs/resources/css/ext-all-scoped.css'),
                 //xUtil::url('assets/extjs-fbm/ext-all-gray-scoped.css'),
+                xUtil::url('assets/css/custom-extjs.css'),
                 xUtil::url('assets/extjs/examples/ux/css/CheckHeader.css'),
                 xUtil::url('assets/extjs-ux/notification/css/Notification.css'),
             )

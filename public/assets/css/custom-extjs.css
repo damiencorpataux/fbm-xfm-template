@@ -1,0 +1,114 @@
+.x-ia-panel-mask {
+    color: #ddd;
+    background-color: #ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px !important;
+    padding-top: 5px;
+}
+.x-ia-panel-mask-denied,
+.x-ia-panel-mask-error {
+    color: #300;
+    background-color: #fdd;
+}
+.x-ia-panel-mask-notfound {
+    color: #003;
+    background-color: #cdf;
+}
+
+
+/**********************************************************
+ * Custom ext icons
+ */
+.icon-add {
+    background-image: url(../img/extjs/add.png) !important;
+}
+.icon-delete {
+    background-image: url(../img/extjs/delete.png) !important;
+}
+.icon-save {
+    background-image: url(../img/extjs/disk.png) !important;
+}
+.icon-get {
+    background-image: url(../img/extjs/page_white_put.png) !important;
+}
+.icon-details {
+    background-image: url(../img/extjs/page_white_magnify.png) !important;
+}
+.icon-print {
+    background-image: url(../img/extjs/printer.png) !important;
+}
+
+/**********************************************************
+ * Custom ext icons for Commission tabs & forms
+ * - Ext.ia.tab.CommissionPanel
+ * - Ext.ia.form.CommissionPhasePanel
+ */
+.tab-icon-done {
+    background-image: url(../img/extjs/bullet_green.png) !important;
+}
+.tab-icon-pending {
+    background-image: url(../img/extjs/bullet_orange.png) !important;
+}
+.tab-icon-unknown {
+    background-image: url(../img/extjs/bullet_gray.png) !important;
+}
+
+.x-ia-toolbar-done {
+    background-color: #9CD099;
+    background-image: none;
+    background-image: -moz-linear-gradient(center top , #9CD099, white);
+}
+.x-ia-toolbar-pending {
+    background-color: #FFC487;
+    background-image: none;
+    background-image: -moz-linear-gradient(center top , #FFC487, white);
+}
+
+.x-ia-panel-commission {
+    border-top: none;
+}
+
+
+/**********************************************************
+ * ExtJS fixes
+ */
+
+/* Fixes Ext.form.field.Display vertical alignment */
+.x-form-display-field {
+    padding-top: 3px !important;
+}
+
+/* Fixes Ext.form.fieldset bottom padding */
+.x-fieldset {
+    padding: 5px 10px 10px 10px;
+}
+.x-fieldset-header-text {
+    font-weight: bold;
+}
+
+
+/**********************************************************
+ * Custom panel title
+ * FIXME: this should be part of a theme, using scss/sass
+**/
+.title-body {
+    border: none;
+    font-size: 11px;
+    margin-top: 13px;
+}
+.x-panel-header-default {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    padding: 0;
+    /**/
+    border-bottom: 1px solid black !important;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 10px 0px 10px 0px;
+}
+.x-panel-header-text-default {
+    color: black;
+}
